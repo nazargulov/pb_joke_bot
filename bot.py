@@ -89,7 +89,7 @@ async def analyze_image_with_openai(image_data: bytes) -> str:
                 }
             ],
             max_tokens=1000,
-            temperature=1.1,
+            temperature=1,
             top_p=0.9,
             frequency_penalty=0.3,
             presence_penalty=0.2
